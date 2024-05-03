@@ -1,0 +1,78 @@
+local decalsyeeted = true
+    local g = game
+    local w = g.Workspace
+    local l = g.Lighting
+    local t = w.Terrain
+    local performanceBackup = {}
+    
+    local function EnablePerformanceMode()
+        performanceBackup.WaterWaveSize = t.WaterWaveSize
+        performanceBackup.WaterWaveSpeed = t.WaterWaveSpeed
+        performanceBackup.WaterReflectance = t.WaterReflectance
+        performanceBackup.WaterTransparency = t.WaterTransparency
+        performanceBackup.GlobalShadows = l.GlobalShadows
+        performanceBackup.FogEnd = l.FogEnd
+        performanceBackup.Brightness = l.Brightness
+        performanceBackup.QualityLevel = settings().Rendering.QualityLevel
+    
+        t.WaterWaveSize = 0
+        t.WaterWaveSpeed = 0
+        t.WaterReflectance = 0
+        t.WaterTransparency = 0
+        l.GlobalShadows = false
+        l.FogEnd = 9e9
+        l.Brightness = 0
+        settings().Rendering.QualityLevel = "Level01"
+    
+        for i, v in pairs(g:GetDescendants()) do
+            if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
+                performanceBackup[v] = {
+                    Material = v.Material,
+                    Reflectance = v.Reflectance
+                }
+                v.Material = "Plastic"
+                v.Reflectance = 0
+            elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
+                performanceBackup[v] = {
+                    Transparency = v.Transparency
+                }
+                v.Transparency = 1
+            elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+                performanceBackup[v] = {
+                    Lifetime = v.Lifetime
+                }
+                v.Lifetime = NumberRange.new(0)
+            elseif v:IsA("Explosion") then
+                performanceBackup[v] = {
+                    BlastPressure = v.BlastPressure,
+                    BlastRadius = v.BlastRadius
+                }
+                v.BlastPressure = 1
+                v.BlastRadius = 1
+            elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") then
+                performanceBackup[v] = {
+                    Enabled = v.Enabled
+                }
+                v.Enabled = false
+            elseif v:IsA("MeshPart") then
+                performanceBackup[v] = {
+                    Material = v.Material,
+                    Reflectance = v.Reflectance,
+                    TextureID = v.TextureID
+                }
+                v.Material = "Plastic"
+                v.Reflectance = 0
+                v.TextureID = 10385902758728957
+            end
+        end
+    
+        for i, e in pairs(l:GetChildren()) do
+            if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or e:IsA("ColorCorrectionEffect") or e:IsA("BloomEffect") or e:IsA("DepthOfFieldEffect") then
+                performanceBackup[e] = {
+                    Enabled = e.Enabled
+                }
+                e.Enabled = false
+            end
+        end
+    end
+    EnablePerformanceMode()
