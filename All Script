@@ -1,0 +1,70 @@
+repeat task.wait() until game:IsLoaded()
+if not Key then
+    return
+end
+getgenv().SelectScript = "Banana" -- W-Azure, Banana, Maru, RoyX, Luxury, Xenon, Switch
+local Key = {"nlhb3nesj84", "wuttcauqlje", "bkr7fkzmu8m", "lffmalrdjm7", "zm9kmv0dl8x", "971l6ggytz1", "nganl2uezje", "tptac33ozma", "53o9p1sfbnv", "ezhdnim7ya3", "aqck2agtbww"}
+EnterKey = getgenv().Key or ""
+
+if getgenv().Key == nil then
+    game.Players.LocalPlayer:Kick("Please Buy Our Premium Script Then Execute, If It Doesn't Work, Please Execute Again Or Do It The Correct Way That AfxcaxiRoblox Shows, Our Discord: https://discord.gg/8ArPvUmnQR")
+end
+
+if table.find(Key, EnterKey) then
+    print("Premium Script Is Now Available, Thank You For Purchasing Our Premium Script.")
+end
+
+if game.Players.LocalPlayer.Name == "fktihc8ba8oye2xv82zn3" and getgenv().Key == nil then
+    print("Bạn Là AfxcaxiRoblox Hoặc Bạn Của AfxcaxiRoblox?, Nếu Bạn Dùng Được Key Này Có Nghĩa Bạn Là AfxcaxiRoblox Hoặc Bạn Của AfxcaxiRoblox")
+end
+wait(1)
+print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(2000)) 
+wait(5)
+spawn(function()
+    for i = 1,1 do
+        for lm,cl in pairs(Key) do
+            if Key == cl then
+                if Hub == "W-Azure" then
+print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(40)) 
+script_key = "eatOLtUfJBAdqnizDxEDyTsopylEeejI"
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(40)) 
+                elseif Hub == "Banana" then
+print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(40)) 
+repeat task.wait() until game:IsLoaded()
+getgenv().Key = "586dd149bce7fa82"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
+print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(40)) 
+                elseif Hub == "RoyX" then
+print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(40)) 
+_G.Key = "HY2UG-XWCTG-X46FW"
+_G.DiscordId = "1003662302412820622"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))();
+print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(40)) 
+                elseif Hub == "Luxury" then
+print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(40)) 
+_G.Key = "main_d4i0QoDXOZzaF1lnmCOH"
+_G.DiscordId = "1003662302412820622"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NightsTimeZ/RoyryX/main/Loader.lua"))();
+print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(40)) 
+                elseif Hub == "Switch" then
+print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(40))
+if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+script_key= "LWXajFsFiZRiRtgwLPJkFzRPCkKEemtW";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d8305a729aa619acf51ae10cd76891d.lua"))()
+print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(40))
+                elseif Hub == "Xenon" then
+print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(40))
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua')){248619065194}
+print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(40))
+                elseif Hub == "Maru" then
+print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(40))
+getgenv().Key = "MARU-WBBSW-ZWBL0-6F8N-I80D5-RYFH"
+getgenv().id = "1003662302412820622"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(40))
+                end
+            end
+        end
+    end
+end)
