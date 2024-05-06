@@ -1,0 +1,172 @@
+task.spawn(function() while task.wait() do setfpscap(360) end end)
+local GameLoadGui = Instance.new("Message", workspace)
+GameLoadGui.Text = "Same Hwid: AfxcaxiRoblox And My Friends"
+wait(.1)
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+local Window = Fluent:CreateWindow({
+    Title = "Select Premium Script",
+    SubTitle = "Created By AfxcaxiRoblox And My Best Friends",
+    TabWidth = 160,
+    Size = UDim2.fromOffset(580, 460),
+    Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
+    Theme = "Dark",
+    MinimizeKey = Enum.KeyCode.LeftControl -- nhấn phím Ctrl để bật tắt UI
+})
+local Tabs = {
+    Main = Window:AddTab({ Title = "Maru Hub", Icon = "rbxassetid://7733946818" }),
+}
+Tabs.Main:AddParagraph({
+    Title = "Menu To Select Version For Maru Hub[Premium Script]",
+    Content = "For Those Who Bought It"
+})
+Tabs.Main:AddButton({
+    Title = "Maru Hub[Thai Version]",
+    Description = "Thai Language Version",
+    Callback = function()
+        getgenv().Key = "MARU-PFVS-93X3K-1XX8-LG3EB-TAHA"
+        getgenv().id = "919580300013604905"
+        _G.Script_Language = "Thai"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+    end
+})
+Tabs.Main:AddButton({
+    Title = "Maru Hub[All Map Version]",
+    Description = "Main Version, Custom Features",
+    Callback = function()
+        getgenv().Key = "MARU-PFVS-93X3K-1XX8-LG3EB-TAHA"
+        getgenv().id = "919580300013604905"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+    end
+})
+Tabs.Main:AddButton({
+    Title = "Maru Hub[Kaitun Version]",
+    Description = "Auto Setup Feature, Default Config",
+    Callback = function()
+        getgenv().Key = "MARU-PFVS-93X3K-1XX8-LG3EB-TAHA"
+        getgenv().id = "919580300013604905"
+        getgenv().Script_Mode = "Kaitun_Script"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+    end
+})
+local Tabs = {
+    Main = Window:AddTab({ Title = "Banana Hub", Icon = "rbxassetid://7733914320" }),
+}
+Tabs.Main:AddButton({
+    Title = "Banana Hub[Main Version]",
+    Description = "Custom Features",
+    Callback = function()
+        repeat task.wait() until game:IsLoaded()
+        getgenv().Key = "586dd149bce7fa82"
+        getgenv().OldBanana = false
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
+    end
+})
+Tabs.Main:AddButton({
+    Title = "Banana Hub[Kaitun Version]",
+    Description = "Auto Setup Feature, Config By AfxcaxiRoblox",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LuxcaPrivacy/Premium-Config/main/Config%20Banana%20Kaitun"))()
+    end
+})
+local Tabs = {
+    Main = Window:AddTab({ Title = "W-Azure Premium", Icon = "rbxassetid://7733798851" }),
+}
+Tabs.Main:AddButton({
+    Title = "W-Azure Hub[True V2 Version]",
+    Description = "Main Version, Custom Features",
+    Callback = function()
+        script_key = "eatOLtUfJBAdqnizDxEDyTsopylEeejI"
+        getgenv().Team = "Pirates"
+        getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
+        getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+    end
+})
+Tabs.Main:AddButton({
+    Title = "W-Azure Hub[Show Items Version]",
+    Description = "Shows the Items Your Account Has",
+    Callback = function()
+        if script_key then
+  return
+end
+getgenv().WaterMark = "AfxcaxiRoblox And My Best Friends"
+script_key ='eatOLtUfJBAdqnizDxEDyTsopylEeejI'
+repeat wait()
+until game:IsLoaded()
+wait(2)
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a7e117dfcf8f6b9f6f561afa714c7d7f.lua"))() 
+    end
+})
+local Tabs = {
+    Main = Window:AddTab({ Title = "Switch Hub", Icon = "rbxassetid://7743873443" }),
+}
+Tabs.Main:AddButton({
+    Title = "Switch Hub[Kaitun Version]",
+    Description = "Auto Setup Feature, Config By AfxcaxiRoblox",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LuxcaPrivacy/Premium-Config/main/Config%20Switch%20Kaitun"))()
+    end
+})
+Tabs.Main:AddButton({
+    Title = "Switch Hub[Pro Version]",
+    Description = "Plowing Raw Materials",
+    Callback = function()
+        if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+        _G.Save_Setting = true -- Save Setting
+        getgenv().Mode = "Pro" -- "7M" / "V4" / "Capcut" / "Kaitun" / "Pro" 
+        script_key= "LWXajFsFiZRiRtgwLPJkFzRPCkKEemtW";
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d8305a729aa619acf51ae10cd76891d.lua"))()
+    end
+})
+Tabs.Main:AddButton({
+    Title = "Switch Hub[Capcut Version]",
+    Description = "Shows the Items Your Account Has, Advance Mode",
+    Callback = function()
+        if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LuxcaPrivacy/Premium-Config/main/Config%20Switch%20Capcut%20V2"))()
+    end
+})
+local Tabs = {
+    Main = Window:AddTab({ Title = "RoyX Hub", Icon = "rbxassetid://8997388430" }),
+}
+Tabs.Main:AddButton({
+    Title = "RoyX Hub[Main Version]",
+    Description = "Custom Features",
+    Callback = function()
+        _G.Key = "HY2UG-XWCTG-X46FW"
+        _G.DiscordId = "1003662302412820622"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))();
+    end
+})
+Tabs.Main:AddButton({
+    Title = "RoyX Hub[Kaitun Version]",
+    Description = "Auto Setup Feature, Config By AfxcaxiRoblox",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LuxcaPrivacy/Premium-Config/main/Royx%20Kaitun"))()
+    end
+})
+local Tabs = {
+    Main = Window:AddTab({ Title = "Luxury Hub", Icon = "rbxassetid://7733992901" }),
+}
+Tabs.Main:AddButton({
+    Title = "Luxury Hub[Main Version]",
+    Description = "Custom Features",
+    Callback = function()
+        _G.Key = "main_d4i0QoDXOZzaF1lnmCOH"
+        _G.DiscordId = "1003662302412820622"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NightsTimeZ/RoyryX/main/Loader.lua"))();
+    end
+})
+Tabs.Main:AddButton({
+    Title = "Luxury Hub[Kaitun Version]",
+    Description = "Auto Setup Feature, Config By AfxcaxiRoblox",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LuxcaPrivacy/Premium-Config/main/Luxury%20Kaitun"))()
+    end
+})
+while wait(.1) do
+    print("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script.")
+end
+
+
