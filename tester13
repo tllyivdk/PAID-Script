@@ -12,12 +12,30 @@ local Window = Fluent:CreateWindow({
 local Tabs = {
     Main = Window:AddTab({ Title = "Maru Hub", Icon = "calendar" }),
 }
-local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Maru Hub[All Map Version]", Default = false })
-getgenv().Key = "MARU-WBBSW-ZWBL0-6F8N-I80D5-RYFH"
-getgenv().id = "1003662302412820622"
-_G.Script_Language = "Thai"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
-Toggle:OnChanged(function()
-end)
-Options.MyToggle:SetValue(false)
 
+Tabs.Main:AddParagraph({
+    Title = "Maru Hub",
+    Content = "For Those Who Bought It"
+})
+
+
+Tabs.Main:AddButton({
+    Title = "Maru Hub[Thai Version]",
+    Description = "Thai Language Version",
+    Callback = function()
+        getgenv().Key = "MARU-PFVS-93X3K-1XX8-LG3EB-TAHA"
+        getgenv().id = "919580300013604905"
+        _G.Script_Language = "Thai"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+    end
+})
+
+Tabs.Main:AddButton({
+    Title = "Maru Hub[All Map]",
+    Description = "Main Version, Custom Features",
+    Callback = function()
+        getgenv().Key = "MARU-PFVS-93X3K-1XX8-LG3EB-TAHA"
+        getgenv().id = "919580300013604905"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+    end
+})
