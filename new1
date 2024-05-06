@@ -1,0 +1,113 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Select Premium Script", HidePremium = false, SaveConfig = false, ConfigFolder = "Choose"})
+local Tab = Window:MakeTab({
+    Name = "Maru Hub",
+    Icon = "rbxassetid://7733746798",
+    PremiumOnly = false
+})
+local Section = Tab:AddSection({
+    Name = "The Script Here Is Only For Those Who Use Hwid And Have Bought This Script From AfxcaxiRoblox Or His Friend Can Use It."
+})
+Tab:AddButton({
+    Name = "Maru Hub[Thai Version]",
+    Callback = function()
+        print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(10))
+        getgenv().Key = "MARU-PFVS-93X3K-1XX8-LG3EB-TAHA"
+        getgenv().id = "919580300013604905"
+        _G.Script_Language = "Thai"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+        print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(10))
+      end    
+})
+Tab:AddButton({
+    Name = "Maru Hub[All Map Version]",
+    Callback = function()
+        print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(10))
+        getgenv().Key = "MARU-PFVS-93X3K-1XX8-LG3EB-TAHA"
+        getgenv().id = "919580300013604905"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+        print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(10))
+      end    
+})
+Tab:AddButton({
+    Name = "Maru Hub[Kaitun Version]",
+    Callback = function()
+        print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(10))
+        getgenv().Key = "MARU-PFVS-93X3K-1XX8-LG3EB-TAHA"
+        getgenv().id = "919580300013604905"
+        getgenv().Script_Mode = "Kaitun_Script"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+        print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(10))
+      end    
+})
+Tab:AddButton({
+    Name = "Maru Hub[PVP Version]",
+    Callback = function()
+        print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(10))
+        getgenv().Key = "MARU-PFVS-93X3K-1XX8-LG3EB-TAHA"
+        getgenv().id = "919580300013604905"
+        _G.Script_Mode = "PVP"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+        print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(10))
+      end    
+})
+local Tab = Window:MakeTab({
+    Name = "Banana Hub",
+    Icon = "rbxassetid://7733658335",
+    PremiumOnly = false
+})
+Tab:AddButton({
+    Name = "W-Azure Hub[True V2 Version]",
+    Callback = function()
+        print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(10))
+        script_key = "eatOLtUfJBAdqnizDxEDyTsopylEeejI"
+        getgenv().Team = "Pirates"
+        getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
+        getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+        print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(10))
+      end    
+})
+Tab:AddButton({
+    Name = "W-Azure Hub[Show Item Version]",
+    Callback = function()
+        print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(10))
+        if script_key then
+          return
+        end
+        --Put Your Key Between ''
+        getgenv().WaterMark = ""
+        script_key ='eatOLtUfJBAdqnizDxEDyTsopylEeejI'
+        repeat wait()
+        until game:IsLoaded()
+        wait(2)
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a7e117dfcf8f6b9f6f561afa714c7d7f.lua"))() 
+        print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(10))
+      end    
+})
+Tab:AddButton({
+    Name = "W-Azure Hub[Show Item Version]",
+    Callback = function()
+        print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(10))
+        script_key = ""
+        getgenv().Digsite = "AdvancedDigsite" --Digsite
+        getgenv().Panel = true
+        getgenv().EndDig = "Hop" -- Kick
+        getgenv().NoMagicBucket = false -- If You Dont Have Enough Bucket
+        getgenv().CustomDiscordID = "" --For Many Discord Accounts
+         getgenv().MailSetting = {
+             SendMail = false,
+             username = "",
+             SendGem = false,
+             AcceptMail = true,
+             MinGem = 5000000,
+             SendBucket = false,
+             MinBucket = 500,
+             SendMagicBucket = false,
+             MinMagicBucket = 500,
+         }
+       loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2c345f4b537fd09769e08b345a1e8773.lua"))()
+        print(("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script. \n"):rep(10))
+      end    
+})
+
