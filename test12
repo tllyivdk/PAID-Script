@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source'))()
 local Window = OrionLib:MakeWindow({Name = "Select Premium Script", HidePremium = false, SaveConfig = false, ConfigFolder = "Choose"})
 local Tab = Window:MakeTab({
     Name = "Maru Hub",
