@@ -1,7 +1,3 @@
-while wait(.1) do
-    print("Hello People Who Have Purchased Premium Scripts From Me Or From My Best Friends, Thank You For Purchasing Our Premium Script, And Always Trusting Us At Any Stage, I'm AfxcaxiIRoblox And My Best Friends, We Are Better And Better Than Before, We Are No Longer Stupid And We Are Not Abused By You Anymore, We Will Try To Secure Your Premium Scripts, We Will Not Make The Second Mistake, Sincerely Sorry For The Past Time And Now You Can Use Premium Script Again With Better Features, Thank You So Much, Thank You For Purchasing Our Premium Script.")
-end
-wait(.1)
 task.spawn(function() while task.wait() do setfpscap(360) end end)
 local GameLoadGui = Instance.new("Message", workspace)
 GameLoadGui.Text = "Same Hwid: AfxcaxiRoblox And My Friends"
