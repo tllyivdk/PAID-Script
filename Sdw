@@ -1,0 +1,177 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source'))()
+local Window = OrionLib:MakeWindow({Name = "Select Premium Script", HidePremium = false, SaveConfig = false, ConfigFolder = "Choose"})
+local Tab = Window:MakeTab({
+    Name = "Maru Hub",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+local Section = Tab:AddSection({
+    Name = "The Script Here Is Only For Those Who Use Hwid And Have Bought This Script From AfxcaxiRoblox Or His Friend Can Use It."
+})
+Tab:AddButton({
+    Name = "Maru Hub[Thai Version]",
+    Callback = function()
+        getgenv().Key = "MARU-WBBSW-ZWBL0-6F8N-I80D5-RYFH"
+        getgenv().id = "1003662302412820622"
+        _G.Script_Language = "Thai"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+      end    
+})
+Tab:AddButton({
+    Name = "Maru Hub[All Map Version]",
+    Callback = function()
+        getgenv().Key = "MARU-WBBSW-ZWBL0-6F8N-I80D5-RYFH"
+        getgenv().id = "1003662302412820622"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+      end    
+})
+Tab:AddButton({
+    Name = "Maru Hub[Kaitun Version]",
+    Callback = function()
+        getgenv().Key = "MARU-WBBSW-ZWBL0-6F8N-I80D5-RYFH"
+        getgenv().id = "1003662302412820622"
+        getgenv().Script_Mode = "Kaitun_Script"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+      end    
+})
+Tab:AddButton({
+    Name = "Maru Hub[PVP Version]",
+    Callback = function()
+        getgenv().Key = "MARU-WBBSW-ZWBL0-6F8N-I80D5-RYFH"
+        getgenv().id = "1003662302412820622"
+        _G.Script_Mode = "PVP"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tllyivdk/PAID-Script/main/tester124"))()
+      end    
+})
+local Tab = Window:MakeTab({
+    Name = "W-Azure Premium",
+    Icon = "rbxassetid://7733658335",
+    PremiumOnly = false
+})
+Tab:AddButton({
+    Name = "W-Azure Hub[True V2 Version]",
+    Callback = function()
+        script_key = "eatOLtUfJBAdqnizDxEDyTsopylEeejI"
+        getgenv().Team = "Pirates"
+        getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
+        getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+      end    
+})
+Tab:AddButton({
+    Name = "W-Azure Hub[Show Item Version]",
+    Callback = function()
+        if script_key then
+          return
+        end
+        --Put Your Key Between ''
+        getgenv().WaterMark = ""
+        script_key ='eatOLtUfJBAdqnizDxEDyTsopylEeejI'
+        repeat wait()
+        until game:IsLoaded()
+        wait(2)
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a7e117dfcf8f6b9f6f561afa714c7d7f.lua"))() 
+      end    
+})
+local Tab = Window:MakeTab({
+    Name = "Banana Hub",
+    Icon = "rbxassetid://7743872492",
+    PremiumOnly = false
+})
+Tab:AddButton({
+    Name = "Banana Hub[Main Version]",
+    Callback = function()
+        repeat task.wait() until game:IsLoaded()
+        getgenv().Key = "586dd149bce7fa82"
+        getgenv().OldBanana = false
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
+      end    
+})
+Tab:AddButton({
+    Name = "Banana Hub[Kaitun Version]",
+    Callback = function()
+        repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+        getgenv().Key = "586dd149bce7fa82"
+        getgenv().SettingFarm ={
+            ["GodHuman"] = true,
+            ["Priority Get Melee Sea 3"] = true,
+            ["Auto Race V2-V3"] = true,
+            ["Auto Saber"] = true,
+            ["Auto Pole"] = true,
+            ["Cursed Dual Katana"] = true,
+            ["SoulGuitar"] = true,
+            ["Teleport To Fruit"] = true,
+            ["Hop Fruit 1M Quest Third Sea"] = true,
+            ["White Screen"] = true,
+            ["Buy Haki"] = {
+                    ["Enhancement"] = false,
+                    ["Skyjump"] = false,
+                    ["Flash Step"] = false,
+                    ["Observation"] = false,
+                },
+
+            ["Blox Fruit Sniper"] = {},
+            ["Lock Fruit"] = {},
+           }
+
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/KaitunTrash.lua"))()
+      end    
+})
+local Tab = Window:MakeTab({
+    Name = "Switch Hub",
+    Icon = "rbxassetid://7733964370",
+    PremiumOnly = false
+})
+Tab:AddButton({
+    Name = "Switch Hub[7M Version]",
+    Callback = function()
+       _G.Setting = {
+            ['White Screen'] = true, -- Booster RAM / จอขาวลด RAM
+            ['FPS Booster'] = true, -- Booster CPU / ภาพกาก
+            ['Auto Sanguine Art'] = true, -- Enabled / เปิดใช้งาน
+        _G.Webhook = {
+            ["Enabled"] = true, -- Enabled / เปิดใช้งาน
+            ["Url"] = "https://discord.com/api/webhooks/1236985718711259167/X8eT-bhOhUGZ8319SVkZvsHIuZmxCOHlz54NvUR5cLPXFYpSFKzYBAiJ-DOt7K_kj-yi" -- Link Webhook discord / ลิ้งค์เว็บฮุก
+       }
+        getgenv().Mode = "7M" -- "7M" / "V4" / "Capcut" / "Kaitun" / "Pro" 
+        script_key= "LWXajFsFiZRiRtgwLPJkFzRPCkKEemtW";
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d8305a729aa619acf51ae10cd76891d.lua"))()
+      end    
+})
+Tab:AddButton({
+    Name = "Switch Hub[Pro Version]",
+    Callback = function()
+        _G.Save_Setting = true -- Save Setting
+        _G.Webhook = {
+            ["Enabled"] = true, -- Enabled / เปิดใช้งาน
+            ["Url"] = "https://discord.com/api/webhooks/1236985718711259167/X8eT-bhOhUGZ8319SVkZvsHIuZmxCOHlz54NvUR5cLPXFYpSFKzYBAiJ-DOt7K_kj-yi" -- Link Webhook discord / ลิ้งค์เว็บฮุก
+       }
+        getgenv().Mode = "" -- "Pro" / "V4" / "Capcut" / "Kaitun" / "Pro" 
+        script_key= "LWXajFsFiZRiRtgwLPJkFzRPCkKEemtW";
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d8305a729aa619acf51ae10cd76891d.lua"))()
+      end    
+})
+Tab:AddButton({
+    Name = "Switch Hub[Kaitun Version]",
+    Callback = function()
+        _G.Webhook = {
+            ["Enabled"] = true, -- Enabled / เปิดใช้งาน
+            ["Url"] = "https://discord.com/api/webhooks/1236985718711259167/X8eT-bhOhUGZ8319SVkZvsHIuZmxCOHlz54NvUR5cLPXFYpSFKzYBAiJ-DOt7K_kj-yi" -- Link Webhook discord / ลิ้งค์เว็บฮุก
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LuxcaPrivacy/Premium-Config/main/Config%20Switch%20Kaitun"))()
+      end    
+})
+Tab:AddButton({
+    Name = "Switch Hub[Capcut Version]",
+    Callback = function()
+        _G.Webhook = {
+            ["Enabled"] = true, -- Enabled / เปิดใช้งาน
+            ["Url"] = "https://discord.com/api/webhooks/1236985718711259167/X8eT-bhOhUGZ8319SVkZvsHIuZmxCOHlz54NvUR5cLPXFYpSFKzYBAiJ-DOt7K_kj-yi" -- Link Webhook discord / ลิ้งค์เว็บฮุก
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LuxcaPrivacy/Premium-Config/main/Config%20Switch%20Capcut"))()
+      end    
+})
+
+
+
+
+
+
