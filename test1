@@ -1,0 +1,18 @@
+local UILib = loadstring(game:HttpGet('https://raw.githubusercontent.com/tllyivdk/PAID-Script/main/UI'))()
+local Window = UILib.new("Select Premium Script", game.Players.LocalPlayer.Name, "Roblox Name Of Buyer Script")
+local Category1 = Window:Category("Main", "http://www.roblox.com/asset/?id=7733945018")
+local SubButton1 = Category1:Button("Maru Hub", "http://www.roblox.com/asset/?id=8997384295")
+local Section1 = SubButton1:Section("Section", "Left")
+Section1:Button({
+    Title = "Main Version",
+    ButtonName = "Execute",
+    Description = "Thai Language And Custom Feature",
+    }, function()
+    getgenv().Key = "MARU-WBBSW-ZWBL0-6F8N-I80D5-RYFH"
+    getgenv().id = "1003662302412820622"
+    _G.Script_Language = "Thai"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+    wait(.1)
+    getgenv().Key = "Do You Think You Can Use ClipBoard To Get The Key Or ID Of Our Hacker? Never!"
+    getgenv().id = "Do You Think You Can Use ClipBoard To Get The Key Or ID Of Our Hacker? Never!"
+end)
