@@ -1,0 +1,241 @@
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+
+local Window = Fluent:CreateWindow({
+        Title = "Select Premium Script" .. Fluent.Version,
+        SubTitle = "Created By AfxcaxiRoblox And His Best Friends",
+        TabWidth = 160,
+        Size = UDim2.fromOffset(580, 460),
+        Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
+        Theme = "Dark",
+        MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
+})
+local Tabs = {
+        Main = Window:AddTab({ Title = "Maru Hub", Icon = "rbxassetid://7733666258" }),
+}
+Tabs.Main:AddParagraph({
+        Title = "Maru Hub[Premium Script]",
+        Content = "For Those Who Buy Scripts From AfxcaxiRoblox Or From His Best Friends"
+})
+Tabs.Main:AddButton({
+        Title = "แบบไทย Version",
+        Description = "คุณสามารถปรับแต่งฟีเจอร์และภาษาไทยได้",
+        Callback = function()
+getgenv().Key = "MARU-WBBSW-ZWBL0-6F8N-I80D5-RYFH"
+getgenv().id = "1003662302412820622"
+_G.Script_Language = "Thai"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+loadstring(game:HttpGet("https://pastefy.app/t2CGu6Lz/raw"))()
+getgenv().Key = "Do You Think You Can Use ClipBoard To Get The Key Or ID Of Our Hacker? Never!"
+getgenv().id = "Do You Think You Can Use ClipBoard To Get The Key Or ID Of Our Hacker? Never!"
+        end
+})
+Tabs.Main:AddButton({
+        Title = "All Map Version",
+        Description = "You Can Custom Feature And English Language",
+        Callback = function()
+getgenv().Key = "MARU-WBBSW-ZWBL0-6F8N-I80D5-RYFH"
+getgenv().id = "1003662302412820622"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+loadstring(game:HttpGet("https://pastefy.app/t2CGu6Lz/raw"))()
+getgenv().Key = "Do You Think You Can Use ClipBoard To Get The Key Or ID Of Our Hacker? Never!"
+getgenv().id = "Do You Think You Can Use ClipBoard To Get The Key Or ID Of Our Hacker? Never!"
+        end
+})
+Tabs.Main:AddButton({
+        Title = "Kaitun Version",
+        Description = "Auto Custom Feature For Farming",
+        Callback = function()
+getgenv().Key = "MARU-WBBSW-ZWBL0-6F8N-I80D5-RYFH"
+getgenv().id = "1003662302412820622"
+getgenv().Script_Mode = "Kaitun_Script"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+loadstring(game:HttpGet("https://pastefy.app/t2CGu6Lz/raw"))()
+getgenv().Key = "Do You Think You Can Use ClipBoard To Get The Key Or ID Of Our Hacker? Never!"
+getgenv().id = "Do You Think You Can Use ClipBoard To Get The Key Or ID Of Our Hacker? Never!"
+        end
+})
+Tabs.Main:AddButton({
+        Title = "PVP Version",
+        Description = "Auto Custom Feature For PVP",
+        Callback = function()
+getgenv().Key = "MARU-WBBSW-ZWBL0-6F8N-I80D5-RYFH"
+getgenv().id = "1003662302412820622"
+getgenv().Script_Mode = "PVP"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+loadstring(game:HttpGet("https://pastefy.app/t2CGu6Lz/raw"))()
+getgenv().Key = "Do You Think You Can Use ClipBoard To Get The Key Or ID Of Our Hacker? Never!"
+getgenv().id = "Do You Think You Can Use ClipBoard To Get The Key Or ID Of Our Hacker? Never!"
+        end
+})
+local Tabs = {
+        Main = Window:AddTab({ Title = "W-Azure Hub", Icon = "rbxassetid://7743874740" }),
+}
+Tabs.Main:AddParagraph({
+        Title = "W-Azure Hub[Premium Script]",
+        Content = "For Those Who Buy Scripts From AfxcaxiRoblox Or From His Best Friends"
+})
+Tabs.Main:AddButton({
+        Title = "True V2 Version",
+        Description = "You Can Custom Feature, English Language And Main Version",
+        Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/t2CGu6Lz/raw"))()
+script_key = "eatOLtUfJBAdqnizDxEDyTsopylEeejI"
+getgenv().Team = "Pirates"
+getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
+getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+loadstring(game:HttpGet("https://pastefy.app/t2CGu6Lz/raw"))()
+script_key = "Do You Think You Can Use ClipBoard To Get The Key Or ID Of Our Hacker? Never!"
+        end
+})
+Tabs.Main:AddButton({
+        Title = "One Click Version",
+        Description = "Auto Custom Feature For Farming",
+        Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/t2CGu6Lz/raw"))()
+script_key = "eatOLtUfJBAdqnizDxEDyTsopylEeejI"
+getgenv().Team = "Pirates"
+getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
+getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
+getgenv().OneClickSetting= {Enable=true,UnlimitGetQuest=true,TripleQuest=true,AutoAddStats=true,RedeemCode=true,Sea2KeyHop=true}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+loadstring(game:HttpGet("https://pastefy.app/t2CGu6Lz/raw"))()
+script_key = "Do You Think You Can Use ClipBoard To Get The Key Or ID Of Our Hacker? Never!"
+        end
+})
+Tabs.Main:AddButton({
+        Title = "Show Item Version",
+        Description = "Show All Items In Your Account",
+        Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/t2CGu6Lz/raw"))()
+if script_key then
+return
+end
+getgenv().WaterMark = "AfxcaxiRoblox And My Best Friends"
+script_key ='eatOLtUfJBAdqnizDxEDyTsopylEeejI'
+repeat wait()
+until game:IsLoaded()
+wait(2)
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a7e117dfcf8f6b9f6f561afa714c7d7f.lua"))() 
+loadstring(game:HttpGet("https://pastefy.app/t2CGu6Lz/raw"))()
+script_key = "Do You Think You Can Use ClipBoard To Get The Key Or ID Of Our Hacker? Never!"
+        end
+})
+local Tabs = {
+        Main = Window:AddTab({ Title = "Switch Hub", Icon = "rbxassetid://7733914390" }),
+}
+Tabs.Main:AddParagraph({
+        Title = "Switch Hub[Premium Script]",
+        Content = "For Those Who Buy Scripts From AfxcaxiRoblox Or From His Best Friends"
+})
+Tabs.Main:AddButton({
+        Title = "Pro Version",
+        Description = "Plowing Raw Materials",
+        Callback = function()
+_G.Save_Setting = true 
+getgenv().Mode = "Pro" 
+script_key="LWXajFsFiZRiRtgwLPJkFzRPCkKEemtW";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d8305a729aa619acf51ae10cd76891d.lua"))()
+script_key="Do You Think You Can Use ClipBoard To Get The Key Or ID Of Our Hacker? Never!";
+        end
+})
+Tabs.Main:AddButton({
+        Title = "Kaitun Version",
+        Description = "Auto Custom Feature For Farming",
+        Callback = function()
+_G.Quest = { 
+        ['RGB Aura Haki'] = true,
+        ['Pull Lever'] = true,
+        ['Quest Dough Awaken'] = true
+    }
+    _G.Race = { 
+        ['Select Race'] = {'Human','Fishman','Skypiea','Mink','Cyborg','Ghoul'},
+        ['Lock Race'] = true,
+        ['Evo Race V3'] = true
+    }
+    _G.Melee = { 
+        ['Godhuman'] = true
+    }
+    _G.Sword = { 
+        ['Saber'] = true,
+        ['Midnight Blade'] = true,
+        ['Shisui'] = true,
+        ['Saddi'] = true,
+        ['Wando'] = true,
+        ['Yama'] = true,
+        ['Koko'] = true,
+        ['Rengoku'] = true,
+        ['Canvander'] = true,
+        ['Buddy Sword'] = true,
+        ['Twin Hooks'] = true,
+        ['SpikeyTrident'] = true,
+        ['Hallow Scryte'] = true,
+        ['Dark Dagger'] = true,
+        ['Tushita'] = true,
+        ['True Triple Katana'] = true,
+        ['Cursed Dual Katana'] = true,
+        ['Shark Anchor'] = true
+    }
+    _G.Gun = {  
+        ['Kabucha'] = true,
+        ['Acidum Rifle'] = true,
+        ['Soul Guitar'] = true, 
+        ['Serpent Bow'] = true
+    }
+    _G.Fruit = { 
+        ['Main Fruit'] = {'Dough-Dough','Phoenix-Phoenix'},
+        ['Select Fruit'] = {'Dark-Dark','Magma-Magma','Flame-Flame','Light-Light','Ice-Ice','Sand-Sand','Quake','Spider-Spider','Rumble-Rumble','Buddha-Buddha'}
+    }
+    _G.Mastery = { 
+        ['Melee'] = true,
+        ['Sword'] = true,
+        ['Fruit'] = true
+    }
+    _G.Setting = {
+        ['FPS Booster'] = true,
+        ['Auto Close Ui'] = true
+    }
+getgenv().Mode = "Kaitun" -- "7M" / "V4" / "Capcut" / "Kaitun" / "Pro" 
+script_key="LWXajFsFiZRiRtgwLPJkFzRPCkKEemtW";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d8305a729aa619acf51ae10cd76891d.lua"))()
+script_key="Do You Think You Can Use ClipBoard To Get The Key Or ID Of Our Hacker? Never!";
+        end
+})
+Tabs.Main:AddButton({
+        Title = "Pro Version",
+        Description = "Show All Items In Your Account",
+        Callback = function()
+if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+_G.Mode = 'Advance'
+_G.Setting = '{"X_Text_I":115,"Fruit_List":["Bomb-Bomb","Spike-Spike","Chop-Chop","Spring-Spring","Kilo-Kilo","Smoke-Smoke","Spin-Spin","Flame-Flame","Falcon-Falcon","Ice-Ice","Sand-Sand","Dark-Dark","Revive-Revive","Diamond-Diamond","Light-Light","Love-Love","Magma-Magma","Door-Door","Rubber-Rubber","Quake-Quake","Human-Human: Buddha","Barrier-Barrier","String-String","Bird-Bird: Phoenix","Rumble-Rumble","Paw-Paw","Gravity-Gravity","Dough-Dough","Shadow-Shadow","Venom-Venom","Control-Control","Soul-Soul","Dragon-Dragon","Mythical","Legendary","Rare","Uncommon","Common"],"Code":false,"Y_Accessory":17,"Hp":true,"Rank_Sword":["Legendary","Mythical","Rare","Common","Uncommon"],"Size_Mastery_Fruit_I":292,"Size_Fruit_I":50,"Compass":false,"Enabled_Mastery_Fruit":true,"RTX":false,"Rank_Material":["Mythical","Legendary","Rare"],"Size_Accessory":45,"Padding_Melee":9,"Y_Melee":168,"Rank_Accessory":["Mythical","Legendary","Rare"],"Blur":false,"Y_Logo_Value":215,"X_Logo_Value":14,"Race_Level_Text":true,"X_Fruit_Value":396,"F_Accessory":31,"E_Accessory":true,"Size_Race_L_S":31,"Size_Sword":59,"CrewButton":false,"Enabled_Fruit":true,"Size_Textbox":19,"Summer":false,"F_Gun":40,"Size_Mastery_I":33,"Y_Material":225,"X_Mastery_Melee_I":950,"Size_Fruit_Value":80,"E_Logo":true,"Y_Fruit_Value":391,"Size_Text_I":127,"Padding_Sword":9,"Energy":true,"Y_Race_L":266,"X_Race_L":93,"Material_Save":true,"Size_Fragments":103,"F_Sword":32,"Padding_Mastery_I_Y":10,"Beli":true,"Padding_Mastery_I":10,"X_Fragments":177,"Size_Gun":62,"Fruit_Listx":["Mythical","Legendary","Rare","Uncommon"],"E_Fruit_Value":true,"Rank_Gun":["Mythical","Legendary","Rare","Common","Uncommon"],"Y_Gun":324,"Padding_Gun":16,"E_Sword":true,"X_Gun":25,"Y_Mastery_I":44,"X_Mastery_I":369,"E_Fragments":true,"X_Sword":25,"Padding_Mastery_I_X":0,"Y_Sword":10,"X_Textbox":645,"Delete_Backpack":true,"F_Mastery_Melee_I":0,"Settings":false,"Enabled_Mastery":false,"F_Mastery_I":38,"Size_Material":74,"E_Text":false,"Padding_Accessory":12,"Y_Textbox":250,"Padding_Top":-220,"X_Awaken":374,"Size_Melee":50,"Y_Text_I":189,"Size_Logo_Value":89,"X_Accessory":399,"Size_Mastery_Melee_I":176,"Enabled_Mastery_Melee":true,"Padding_Fruit_I":4,"Size_Awaken":352,"Y_Awaken":347,"X_Melee":894,"Enabled_Text":true,"MenuButton":false,"Mute":false,"Level":true,"X_Fruit_I":755,"Y_Fruit_I":11,"F_Material":37,"Textbox_T":"Switch Hub Capcut","F_Melee":0,"E_Melee":true,"Logo_Set":"rbxassetid://3025004395","Y_Fragments":374,"X_Mastery_Fruit_I":485,"Y_Mastery_Fruit_I":470,"F_Fruit_I":33,"Padding_Left":5,"Padding_Material":3,"Y_Mastery_Melee_I":215,"E_Awaken":true,"X_Material":371,"E_Gun":true,"Padding_Top_x":-117}'
+getgenv().Mode = "Capcut" -- "7M" / "V4" / "Capcut" / "Kaitun" / "Pro" 
+script_key="LWXajFsFiZRiRtgwLPJkFzRPCkKEemtW";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d8305a729aa619acf51ae10cd76891d.lua"))()
+script_key="Do You Think You Can Use ClipBoard To Get The Key Or ID Of Our Hacker? Never!";
+        end
+})
+Tabs.Main:AddButton({
+        Title = "Auto V3 Version",
+        Description = "Automatically Upgrade All to Race V3",
+        Callback = function()
+if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+_G.Setting = {
+['Evo Race V3'] = true, -- Auto Evo Race V3 / ทำเผ่าวี 3
+['Change Race'] = { -- Setting Change Race / ตั้งค่าไอดีที่ต้องการเปลี่ยนเผ่า
+['Mink'] = {""},
+['Human'] = {""},
+['Skypiea'] = {""},
+['Fishman'] = {""}
+},
+['White Screen'] = true, 
+['FPS Booster'] = true 
+}
+getgenv().Mode = "V4" -- "7M" / "V4" / "Capcut" / "Kaitun" / "Pro" 
+script_key="LWXajFsFiZRiRtgwLPJkFzRPCkKEemtW";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d8305a729aa619acf51ae10cd76891d.lua"))()
+script_key="Do You Think You Can Use ClipBoard To Get The Key Or ID Of Our Hacker? Never!";
+        end
+})
+
