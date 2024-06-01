@@ -76,7 +76,9 @@ local decalsyeeted = true
         end
     end
     EnablePerformanceMode()
+
 wait(.1)
+
 _G.Settings = {
     Players = {
         ["Ignore Me"] = false, -- Ignore your Character
